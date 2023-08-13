@@ -7,14 +7,14 @@ In the context of this analysis, a false negative is a loan that is deemed healt
 
 Model Analysis
 
-    •	Accuracy – 99%
-        o	This model has an overall accuracy rate of 99%, meaning that it correctly predicts loan status 99% of the time. Given the nature of the dataset, namely the prevalence of healthy loans, this metric alone does not offer a comprehensive evaluation of the model.
+    -	Accuracy – 99%
+        -	This model has an overall accuracy rate of 99%, meaning that it correctly predicts loan status 99% of the time. Given the nature of the dataset, namely the prevalence of healthy loans, this metric alone does not offer a comprehensive evaluation of the model.
 
-    •	Precision – 84%
-        o	With a precision rate of 84%, this model exhibits a less than optimal, yet sufficient ability to correctly classify healthy loans. This means that the model has a 16% chance of labeling a loan high-risk, when it is in fact healthy. This is a tolerable false positive rate because false positives represent far less risk to a lender than false negatives. False positives would lead to missed revenue opportunities for a lender, but would not necessarily increase a lender’s risk profile.
+    -	Precision – 84%
+        -	With a precision rate of 84%, this model exhibits a less than optimal, yet sufficient ability to correctly classify healthy loans. This means that the model has a 16% chance of labeling a loan high-risk, when it is in fact healthy. This is a tolerable false positive rate because false positives represent far less risk to a lender than false negatives. False positives would lead to missed revenue opportunities for a lender, but would not necessarily increase a lender’s risk profile.
 
-    •	Recall – 98%
-        o	As mentioned above, recall is the most important metric for evaluating the effectiveness of the model because it indicates how often a model generates false negatives. A high recall indicates a low false negative rate. With a recall of 98%, this model has very low false negative rate. This means that this model is not likely to label a high-risk loan as a healthy loan and is therefore suitable for use by a lender, whose main concern would most likely be avoiding high-risk loans. 
+    -	Recall – 98%
+        -	As mentioned above, recall is the most important metric for evaluating the effectiveness of the model because it indicates how often a model generates false negatives. A high recall indicates a low false negative rate. With a recall of 98%, this model has very low false negative rate. This means that this model is not likely to label a high-risk loan as a healthy loan and is therefore suitable for use by a lender, whose main concern would most likely be avoiding high-risk loans. 
 
 Conclusion
 Although this model could mistakenly reject some healthy loans, it would effectively flag high-risk loans and aid lenders greatly with regards to risk management. I would therefore recommend this model for use by lenders.
